@@ -1,2 +1,11 @@
+[project]
+name = "gmail-mcp"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp",
+    "python-dotenv",
+]
+
 [tool.vercel]
 entrypoint = "index:app"
